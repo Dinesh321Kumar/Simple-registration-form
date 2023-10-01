@@ -38,9 +38,9 @@ if(isset($_POST['click'])){
 
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div class="form-group">
-                <label for="exampleInputEmail1">Email or phone number/label>
-                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
-                        placeholder="Enter email">
+                <label for="exampleInputEmail1">Email or phone number</label>
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
 
             </div>
             <div class="form-group">
