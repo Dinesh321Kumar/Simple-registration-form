@@ -34,7 +34,7 @@ if(isset($_POST['click'])){
 
 <body>
     <div class="container col-md-4">
-        <h2 class="mt-4 mb-3">Login</h2>
+        <h2 class="mt-4 mb-3">Login form</h2>
 
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div class="form-group">
